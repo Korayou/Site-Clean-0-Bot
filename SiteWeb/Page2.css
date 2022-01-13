@@ -1,0 +1,127 @@
+
+{
+    border: 1px solid red;
+}
+
+.wrapper {
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(2, 1fr);
+    column-gap: 27%;
+    row-gap: 20%;
+    
+     
+  }
+  .one {
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .two{
+    text-align: center;
+    grid-column: 2 ;
+    grid-row: 1 ;
+  }
+  
+  .three{
+      text-align: center;
+      grid-column: 3;
+      grid-row: 1;
+  }
+
+  .four{
+    text-align: center;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+
+  .five{
+    text-align: center;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .six{
+    text-align: center;
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .bouton{
+    display: flexbox;
+    border: black 1px solid;
+    background-color: #ffffd4;
+}
+
+
+h1{
+    margin-left: 38%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    padding: 1% 2%;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+ul{
+    background-color: #ffffd4;
+}
+
+#nav {
+	padding: 0; margin: 0;
+	text-align: center; /* centrer le texte */
+}
+
+#nav li {
+	display: inline;
+	list-style: none;
+}
+
+#nav a {
+	display:inline-block;
+	margin: 0%;
+}
+
+header{
+    margin: auto;
+}
+
+
+.active{
+    background-color: darkseagreen;
+}
+
+
+.un{
+    flex-basis: auto;
+    margin: 0%;
+}
+
+.ti{
+    flex-basis: 100%;
+    align-self: center;
+    margin: 0%;
+}
+
+
+.box{
+    display: flex;
+    justify-content: space-between; 
+    margin: 0%;
+    background-color:#ffffd4;
+}
+
+html{
+    background-image: url(/home/thomas/Bureau/SiteWeb/image/Fond.jpg);
+}
