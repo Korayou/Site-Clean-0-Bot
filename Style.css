@@ -119,13 +119,17 @@ body {
  @font-face { font-family: Lib; src: url("/export/home/an21/bouzon/APL/SAEHTML_2021/LiberationSerif-Regular.ttf"); } 
  @font-face { font-family: Lib; font-weight: bold; src: url("/export/home/an21/bouzon/APL/SAEHTML_2021/LiberationSerif-Regular.ttf");}
 
+ @font-face { font-family: happy; src: url("/export/home/an21/bouzon/APL/SAEHTML_2021/happy-times-at-the-ikob.ttf"); } 
+ @font-face { font-family: happy; font-weight: bold; src: url("/export/home/an21/bouzon/APL/SAEHTML_2021/happy-times-at-the-ikob.ttf");}
+
+
 
  h1 {
          font-family: Barlow;
       }
 
  h2 {
-         font-family: Lib;
+         font-family: happy;
       }
 
   h4 {
@@ -136,4 +140,22 @@ body {
 .p2 {
 line-height: 0.2;
   color:  #000000;
+}
+
+#rectangle{
+    list-style-type: none;
+    display:inline-block;
+    box-sizing: border-box;
+    width:200px;
+    height:200px;
+    background:lightgray;
+}
+
+.img2{
+    list-style-type: none;
+    display:inline-block;
+    box-sizing: border-box;
+    width:200px;
+    height:200px;
+    background:lightgray;
 }
