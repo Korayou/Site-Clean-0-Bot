@@ -1,7 +1,26 @@
 
+
+.question{
+    font-size: large;
+    font-weight: bold;
+    font-family: Happy;
+}
+
+@font-face {
+    font-family: Barlow;
+    src: url(font/BarlowSemiCondensed-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Happy;
+    src: url(font/happy-times-at-the-ikob.ttf);
+}
+
 h1{
     margin-left: 38%;
+    font-family: Barlow;
 }
+
 
 body{
     margin: 0;
