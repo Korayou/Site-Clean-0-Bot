@@ -1,0 +1,104 @@
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.liste{
+    background-color: #ffffd4;
+}
+
+.vous{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Happy;
+}
+
+
+.ox{
+    padding: 1% 1%;
+    text-align: center;
+    background-color: #ffffd4;
+    border: 1px black solid;
+}
+
+
+.insta {
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    width: 29%;
+    background-color: #ffffd4;
+    box-shadow: 0.2em 0.3em 0.5em rgb(0 0 0 / 60%);
+    margin-bottom: 25px;
+    border-radius: 10px;
+    padding:20px ;
+}
+
+.imgimg{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4{
+    font-family: lib ;
+    text-align: center;
+    font-size: 24px;
+}
+
+.prRr {
+    font-size: 18px;
+}
+
+.insta:hover {
+    opacity: 0.8;
+}
+
+.contain {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.insta2 {
+    display: inline-block;
+    height: 100%;
+    width: auto;
+
+    margin-bottom: 25px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-right: 2%;
+    padding-left: 2%;
+    text-align: justify;
+}
+
+
+img.municipalité {
+    float: left;
+    padding: 10px;
+}
+
+img.entreprise {
+    float: right;
+    padding: 10px;
+}
+
+img.particulier {
+    float: left;
+    padding: 10px;
+}
+
+#lirelasuite {
+    display:none;
+  }
+
+.choix {
+    text-decoration: none;
+    color: black;
+}
