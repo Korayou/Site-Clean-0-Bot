@@ -1,0 +1,123 @@
+<!doctype html>  
+<html>
+
+<head> 
+    <link href="../CSS/Contact.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="../CSS/Commun.css">
+    <link rel="icon" href="../img/icon.png">
+    <script src="../JS/Style.js"></script> 
+<meta charset="UTF-8">
+<title>Clean-0-Bot</title>
+</head>
+
+<body>
+    <header id="haut">
+        <div class="box">
+            <div class="un"><img src="../img/logo.png" alt=""></div>
+            <div class="ti"><h1>Clean-0-Bot</h1></div>
+        </div>
+        <ul id="nav">
+            <li ><a href="../index.html">Acceuil</a></li>
+            <li><a href="Produit.html">Nos Produits</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li class="active"><a href="Contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+
+<div id="wrap">   <!--CONTENUS DE LA PAGE-->
+    <div class="burger">
+      <nav class="Lateral">
+        <a href="#wrap" id="open">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34px" height="27px" viewBox="0 0 34 27" enable-background="new 0 0 34 27" xml:space="preserve">
+  <rect fill="#000000" width="34" height="2"/>
+  <rect y="11" fill="#000000" width="40" height="2"/>
+  <rect y="23" fill="#000000" width="40" height="2"/>
+  </svg>
+  
+        </a> <!--LIEN VERS LES AUTRES PAGES-->
+        <a href="#" id="close"> &#10060; </a>
+        <h1>Menu</h1>
+        <a href="../index.html">Acceuil</a>
+        <a href="Produit.html">Nos produits</a>
+        <a href="FAQ.html">FAQ</a>
+        <a class="activeBurger"  href="Contact.html">Contact</a>
+
+      </nav>
+  </div>
+
+    <div class= "Contenu">
+<h2>Bienvenue sur la page de contact</h2><br>
+    <p>Si vous avez un quelconque problème ou des questions sur nos produits vous pouvez nous contactez ici :</p>
+    <ul>
+        <li>Tél : <a class= "lienn" href="tel:01 64 13 32 78">01 64 13 32 78</a></li>
+        <li>Email : <a class= "lienn" href="mailto:Clean-0-Bot@gmail.com">Clean-O-Bot@gmail.com</a> </li>
+    </ul>
+    
+    <br>
+
+   <p> Vous voulez nous laisser vos coordonnées pour que nous vous contactions ? Vous avez une réclamation ?</p>
+   <p>Un probléme avec le fonctionement de votre poubelle ?</p>
+    <p>Besoin d'aide pour l'intallation de votre poubelle ou le fonctionnement de l'application?</p>
+    <form method="post" action="https://dwarves.iut-fbleau.fr/requete.php">
+            <fieldset> <legend>Vous pouvez remplir ce formulaire :</legend>
+            
+            <label for="name">Nom :</label>
+            <input type="text" name="name"><br>
+
+            <label for="firstname">Prénom :</label>
+            <input type="text" name="firstname"><br>
+            
+            <label for="email">Email :</label>
+            <input type="email" name="email"><br>
+
+            <label for="CP">Code Postal :</label>
+            <input type="number" name="CP" pattern="[0-9]{5}"><br>
+
+            <label for="phone">Téléphone portable:</label>
+            <input type="tel" name="phone" pattern="[0-9]{10}"><br>
+
+            <label for="objet">Objet :</label>
+            <select name="objet">
+                <option value="autre">Autre</option>
+                <option value="achat">Intéressé à l'achat</option>
+                <option value="SAV">Réclamation / SAV</option>
+                <option value="info">Demande d'information</option>
+            </select> <br>
+
+            <label for="texte">Votre message :</label><br>
+            <textarea name="message" required=""></textarea><br>
+
+            </fieldset>
+            <input type="submit" value="Envoyer">
+            <input type="reset">
+        </form>
+
+
+        <h2>Réseaux: </h2>
+
+        <div class="reseaux">
+            <div class="logo">
+                <a href="https://www.linkedin.com/" target="_blank"> <img  style="width: 60%" alt="linkedin" src="../img/li.png"></a>
+                <p>Linkedin</p>
+            </div>
+
+            <div class="logo">
+                <a href="https://fr-fr.facebook.com/" target="_blank"> <img  style="width: 60%" alt="facebook" src="../img/fb.png"></a>
+                <p>Facebook</p>
+              </div>
+            
+            <div class="logo">
+                 <a href="https://twitter.com/?lang=fr"target="_blank"> <img  style="width: 60%" alt="twitter" src="../img/tw.png"></a> <br>
+                <p>Twitter</p>
+            </div>
+        </div>
+        
+    </div>
+  
+   </div>
+
+   <img class="le_bouton" src="../img/up-arrow.png" alt="" onclick="window.location.href = '#haut';">
+
+</body>
+</html>

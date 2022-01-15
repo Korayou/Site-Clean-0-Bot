@@ -1,0 +1,45 @@
+.question{
+    font-size: large;
+    font-weight: bold;
+    font-family: Happy;
+}
+
+
+.accordion {
+    margin:20px auto;
+  }
+  button.accordion {
+    width: 100%;
+    background-color: #ffffd4;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+    opacity: 0.8S;
+  }
+  button.accordion:after {
+    font-family: FontAwesome;
+    content: '\f150';
+    font-family: "fontawesome";
+    font-size: 14px;
+    float: right;
+  }
+  button.accordion.is-open:after {
+    content: '\f056';
+  }
+  button.accordion:hover, .active {
+    opacity: 1;
+  }
+  
+  .panel {
+    background-color: lightgray;
+    display: none;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+  }
